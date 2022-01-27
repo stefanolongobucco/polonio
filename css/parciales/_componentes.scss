@@ -1,0 +1,50 @@
+@import"./variables";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.content{
+    display: grid;
+}
+
+
+
+
+.icon{
+   text-decoration: none;
+   color: white;
+   font-size: 30px;
+
+   &:hover {
+
+    color: $Copper;    
+    transform: scale(2,2);
+    transition: .3s;
+
+	}
+
+}
+
+
+    .btn-main{
+        color: white;
+        text-decoration: none;  
+        font-size: 2em; 
+        text-transform: uppercase;
+        text-align: center;
+        &:hover{
+            color:#034c65;
+        
+         
+         }
+    }
+    
+    

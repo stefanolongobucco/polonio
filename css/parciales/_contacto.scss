@@ -1,0 +1,81 @@
+@import"./variables";
+
+.main__contacto{
+    display: flex;
+    width: 100vw;
+    height: 30em;
+    justify-content: center;
+    align-items: center;
+    background-color: $Copper;
+
+
+    .div__contacto{
+        height: 70%;
+        background-color: $Jet;
+        width: 30em;
+        padding: 0 2em;
+        border-radius: 5%;
+
+            .section__contacto {
+                flex-wrap: wrap;
+                flex-direction: column;
+                width: 100%;
+                height: 20em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2em;
+
+                    
+
+                    .contact-me {
+
+                        color: $PersianGreen;	
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        font-weight: 500;
+                        letter-spacing: 1px;
+                        padding-bottom: 6px;
+                        font-family: Montserrat,Arial,sans-serif!important;
+                        font-weight: bold;
+                    
+                        }
+
+                    &__form{
+                        display: flex;
+                        flex-direction: column;
+                        width: 90%;
+                        text-align: center;
+                        justify-self: center;
+                        gap: 1em;
+
+                        .submit {
+   
+                            background-color: $PersianGreen;
+                            padding: 12px 45px;
+                            border-radius: 5px;
+                            cursor: pointer;
+                            color: #ffffff;
+                            border: none;
+                            outline: none;
+                            margin: 0;
+                            font-weight: bold;
+                        
+                            }
+                        .submit:hover {
+                        
+                            background-color: #43a09d;
+                        
+                            }
+                    }
+
+	        }
+
+    }
+
+}
+
+  
+
+
+

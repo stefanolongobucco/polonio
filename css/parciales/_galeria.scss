@@ -1,0 +1,48 @@
+.section__galeria{
+    background-image: url(../assets/img/galeria.webp);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.3fr;
+    align-content: space-evenly;
+    padding:2em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;   
+  
+}
+
+
+.section__galeria--hijo {
+    display: grid;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.galeria__imgG{
+    width: 15rem;
+    height: 15rem;
+}
+.section__galeria--hijo2 {
+    display: grid;
+}
+
+
+
+.galeria__main{
+    padding:3em;
+}
+
+.galeria__main__div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    text-align: center;
+    justify-content: center;
+}
+
+.galeria__main--imgG{
+    width:  20rem;
+    height: 20rem;
+}

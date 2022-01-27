@@ -1,0 +1,25 @@
+@import"./variables";
+
+.nosotros2{
+    width: 100%;
+    background-color:black ;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    justify-content:center;
+    gap: 2em;  
+    padding:1.5em;
+    }    
+
+
+
+.nosotros__div--youtube{
+    height: 23rem;
+    width:  100%;
+
+}
+.nosotros__div--p{
+    color: $Copper;
+    font-size: 1.2em;
+    text-align: justify;
+}

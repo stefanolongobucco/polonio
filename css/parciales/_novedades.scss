@@ -1,0 +1,62 @@
+
+
+.Novedades {
+    display: grid;
+    background-color: $Copper;
+    /* height: 100vh; */
+    /* flex-direction: column; */
+     text-align: center;
+     align-items: center; 
+    align-content: center; 
+}
+
+
+.Novedades__div--card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 1em;
+}
+
+
+
+.Novedades__div__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15em;
+    height: 25em;
+
+}
+
+.Novedades__div--img{
+    height: 15em;
+    width:  15em;
+    flex: 1 1 60%;
+}
+
+.Novedades__div--p{
+background-color: black;
+color: #a8763e;
+text-align: justify;
+flex: 1 1 40%;
+padding: 0.5em;
+overflow: hidden;
+}
+
+.Novedades__div{
+    padding: 1.2em;
+}
+
+
+.novedades__main{
+    width: 100%;
+}
+
+.novedades__Novedades {
+    display: grid;
+    background-color: $Copper;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}

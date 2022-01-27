@@ -1,0 +1,83 @@
+.nosotros{
+    padding-top: 10vh;
+    background-color:$Copper ;
+    display: grid;
+    grid-template-areas: 
+    "nosotros__h2"
+    "nosotros__div";
+
+    &__h2{
+        text-align: center;
+        font-size: 3em;
+    }
+
+    &__div{
+        text-align: center;   
+        
+        &--art{
+            display: inline-block;
+            padding:5em;
+        }
+    }
+
+
+} 
+  
+
+    .artistas{
+        border-radius: 50%;
+        width: 15rem;
+        height: 15rem;
+        }
+
+
+    
+
+.artistas__main{
+    background-color: $Copper;
+    width: 100%;
+
+    .artistas__section {
+        display: grid;
+        width: 100%;
+        align-content: space-evenly;
+        text-align: center;
+        padding: 1em;
+        gap: 3em;
+
+        &__div {
+            display: grid;
+            grid-template-columns: 0.5fr 1.5fr;
+            align-items: center;
+            gap: 3em;
+            width: 100%;
+
+            .artistas__section--art{
+ 
+                display: flex;
+                flex-direction: column;
+                gap: 2em;
+            }
+
+            .artistas__section--p {
+                background-color: $Jet;
+                padding: 0.5em;
+                text-align: center;
+
+                .artistas__div--p{
+                    color: $Copper;
+                    font-size: 1.2em;
+                    letter-spacing: 1px;
+                    text-align: justify;
+                    
+                }
+            }
+           
+        }
+    }
+}
+
+
+
+
+

@@ -1,0 +1,127 @@
+@media screen and (max-width: 1278px){
+    .galeria__imgG5{
+        display: none;
+    }
+   
+     
+ }
+ @media screen and (max-width: 1034px){
+     .galeria__imgG4{
+         display: none;
+     }
+  }
+ 
+  @media screen and (max-width: 791px){
+     .galeria__imgG3{
+         display: none;
+     }
+     .nosotros2{
+      /*  grid-template-rows: 1fr 1fr;*/
+         grid-template-columns: 1fr;
+         }   
+      
+  }
+ 
+  @media screen and (max-width: 548px){
+     .galeria__imgG2{
+         display: none;
+     }
+       
+  }
+ 
+  /*------novedades-------*/
+  @media screen and (max-width: 1231px){
+     .div__card4{
+         display: none;
+     }
+     .Novedades__div--card {
+         grid-template-columns: 1fr 1fr 1fr;
+     }
+  }
+ 
+  @media screen and (max-width: 943px){
+     .div__card3{
+         display: none;
+     }
+     .Novedades__div--card {
+         grid-template-columns: 1fr 1fr;
+     }
+ }
+ 
+  @media screen and (max-width: 656px){
+     .div__card2{
+         display: none;
+     }
+     .Novedades__div--card {
+         grid-template-columns: 1fr;
+     }
+      
+  }
+ 
+ @media screen and (min-width:983px){
+ 
+     .header__logo{
+         margin-left: 50px;
+     }
+ 
+     .header__nav{       
+         height: 100px;
+         display: flex;
+     }
+ 
+ 
+     .bar-btn{
+         display: none;
+     }
+     
+     .header__list{
+         position: relative;
+         height: 100px;
+         top: 0;
+         background: none;
+         transition: none;
+         text-align: center;
+         margin-right: 50px;
+     }
+ 
+     .header__list li {
+         display: inline-block;
+         line-height: 100px;
+         margin: 0 20px;
+         transition: none;
+     }
+     
+     
+     .header__list li a{
+         text-decoration: none;
+         color: white;
+         font-size: 1.2em;
+         padding:0.5em;
+     }
+     .header__list li a.active {
+         color:#ffffff;
+     }
+     .header__list li a:hover{
+        color:$Copper;
+        background-color: #2b2c28;
+        border-radius: 0.2em;
+        transition: .3s;
+     
+     }
+ 
+     
+ }
+ @media screen and (max-width: 1050px){
+     .active{
+         display: none;
+     }
+  }
+ 
+  @media screen and (max-width: 768px){
+   
+     .artistas__section {
+         justify-content: center;
+         justify-items: center;
+         grid-template-columns:1fr;
+     }
+  }
