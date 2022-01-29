@@ -14,12 +14,11 @@
 
 
 .nosotros__div--youtube{
-    height: 23rem;
-    width:  100%;
+    @include sizes(23rem,100%);
 
 }
 .nosotros__div--p{
-    color: $Copper;
+    color: map-get($map: $colores, $key: bronce);
     font-size: 1.2em;
     text-align: justify;
 }

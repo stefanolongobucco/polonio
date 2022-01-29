@@ -18,7 +18,7 @@
      .nosotros2{
       /*  grid-template-rows: 1fr 1fr;*/
          grid-template-columns: 1fr;
-         }   
+         }      
       
   }
  
@@ -103,7 +103,7 @@
      }
      .header__list li a:hover{
         color:$Copper;
-        background-color: #2b2c28;
+        background-color: map-get($map: $colores, $key: negroC);
         border-radius: 0.2em;
         transition: .3s;
      

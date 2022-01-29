@@ -1,6 +1,6 @@
 .nosotros{
     padding-top: 10vh;
-    background-color:$Copper ;
+    background-color:map-get($map: $colores, $key: bronce) ;
     display: grid;
     grid-template-areas: 
     "nosotros__h2"
@@ -25,16 +25,15 @@
   
 
     .artistas{
-        border-radius: 50%;
-        width: 15rem;
-        height: 15rem;
+        border-radius: 50%;        
+         @include sizes(15rem,15rem);
         }
 
 
     
 
 .artistas__main{
-    background-color: $Copper;
+    background-color: map-get($map: $colores, $key: bronce) ;
     width: 100%;
 
     .artistas__section {
@@ -60,12 +59,12 @@
             }
 
             .artistas__section--p {
-                background-color: $Jet;
+                background-color: map-get($map: $colores, $key: negroC) ;
                 padding: 0.5em;
                 text-align: center;
 
                 .artistas__div--p{
-                    color: $Copper;
+                    color: map-get($map: $colores, $key: bronce) ;
                     font-size: 1.2em;
                     letter-spacing: 1px;
                     text-align: justify;

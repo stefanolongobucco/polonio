@@ -22,7 +22,7 @@
 
 .bar-btn{
     font-size: 2rem;
-    color: $Jet;
+    color: map-get($map: $colores, $key:negroC );
     margin-right: 20px;
     cursor: pointer;
 }
@@ -54,7 +54,7 @@ transition: all .5s;
 }
 
 .header__list li a.active, .header__list li a:hover {
-    color:$Copper;
+    color:map-get($map: $colores, $key: bronce);
     transition: .3s;
 }
 

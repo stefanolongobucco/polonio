@@ -21,8 +21,7 @@
 }
 
 .galeria__imgG{
-    width: 15rem;
-    height: 15rem;
+    @include sizes(15rem,15rem);
 }
 .section__galeria--hijo2 {
     display: grid;
@@ -43,6 +42,5 @@
 }
 
 .galeria__main--imgG{
-    width:  20rem;
-    height: 20rem;
+    @include sizes(20rem,20rem);
 }

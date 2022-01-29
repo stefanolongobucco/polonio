@@ -2,7 +2,7 @@
 
 .Novedades {
     display: grid;
-    background-color: $Copper;
+    background-color: map-get($map: $colores, $key: bronce);
     /* height: 100vh; */
     /* flex-direction: column; */
      text-align: center;
@@ -23,21 +23,19 @@
 .Novedades__div__card{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 15em;
-    height: 25em;
+    align-items: center;    
+    @include sizes(25em,15em);
 
 }
 
-.Novedades__div--img{
-    height: 15em;
-    width:  15em;
+.Novedades__div--img{    
+    @include sizes(15em,15em);
     flex: 1 1 60%;
 }
 
 .Novedades__div--p{
 background-color: black;
-color: #a8763e;
+color: map-get($map: $colores, $key: bronce);
 text-align: justify;
 flex: 1 1 40%;
 padding: 0.5em;
@@ -55,8 +53,7 @@ overflow: hidden;
 
 .novedades__Novedades {
     display: grid;
-    background-color: $Copper;
-    width: 100%;
-    height: 100%;
+    background-color:map-get($map: $colores, $key:bronce );    
+    @include sizes(100%,100%);
     align-items: center;
 }

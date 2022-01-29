@@ -6,12 +6,12 @@
     height: 30em;
     justify-content: center;
     align-items: center;
-    background-color: $Copper;
+    background-color: map-get($map: $colores, $key: bronce);
 
 
     .div__contacto{
         height: 70%;
-        background-color: $Jet;
+        background-color: map-get($map: $colores, $key: negroC);
         width: 30em;
         padding: 0 2em;
         border-radius: 5%;
@@ -19,8 +19,7 @@
             .section__contacto {
                 flex-wrap: wrap;
                 flex-direction: column;
-                width: 100%;
-                height: 20em;
+                @include sizes(20em,100%);
                 display: flex;
                 align-items: center;
                 justify-content: center;

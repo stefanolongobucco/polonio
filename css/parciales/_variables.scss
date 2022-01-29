@@ -6,3 +6,21 @@ $PersianGreen:#339989;
 $Copper:#a8763e;
 $OldLac:#f7f3e3;
 /*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*mapas*/
+
+$colores:(
+negro: $EerieBlack,
+negroC:$jet,
+bronce:$copper
+);
+
+
+
+/*mixins*/
+@mixin sizes ($width,$height){
+    height: $height;
+    width: $width;
+}
