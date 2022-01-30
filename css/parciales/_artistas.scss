@@ -11,10 +11,8 @@
     padding:1.5em;
     }    
 
-
-
 .nosotros__div--youtube{
-    @include sizes(23rem,100%);
+    @include sizes(100%,23rem);
 
 }
 .nosotros__div--p{

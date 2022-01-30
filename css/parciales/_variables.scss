@@ -1,26 +1,25 @@
-/*----------------------------------------------------------------------------------------------------------------------------------------------------
-----------colores---------------*/
+
 $EerieBlack:#131515;
-$Jet:#2b2c28;
+$Jet: #2b2c28;
 $PersianGreen:#339989;
 $Copper:#a8763e;
 $OldLac:#f7f3e3;
-/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+$colores: () !default;
 
-
-/*mapas*/
-
-$colores:(
-negro: $EerieBlack,
-negroC:$jet,
-bronce:$copper
+$colores: map-merge(
+    (
+        "negro": $EerieBlack,
+        "negroC":$Jet,
+        "bronce":$Copper,
+    ),
+    $colores
 );
 
 
 
-/*mixins*/
-@mixin sizes ($width,$height){
+
+@mixin sizes($width,$height){
     height: $height;
     width: $width;
 }

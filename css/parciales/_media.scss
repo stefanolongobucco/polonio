@@ -1,3 +1,6 @@
+@import"./variables";
+
+
 @media screen and (max-width: 1278px){
     .galeria__imgG5{
         display: none;
@@ -119,7 +122,7 @@
  
   @media screen and (max-width: 768px){
    
-     .artistas__section {
+    .artistas__main .artistas__section__div {
          justify-content: center;
          justify-items: center;
          grid-template-columns:1fr;
