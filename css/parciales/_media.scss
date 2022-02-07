@@ -30,7 +30,16 @@
          display: none;
      }
        
-  }
+     .header{
+        @include sizes(100%,75vh);
+        background-image: url(../assets/img/img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: center;   
+     }
+
+    }
+    
  
   /*------novedades-------*/
   @media screen and (max-width: 1231px){
@@ -127,4 +136,10 @@
          justify-items: center;
          grid-template-columns:1fr;
      }
+
+     .nosotros  .nosotros__div  .nosotros__div--art{    
+        padding: 2em 5em;
+    }
   }
+ 
+

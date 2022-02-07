@@ -320,7 +320,14 @@ body {
 
 @media screen and (max-width: 548px) {
   .galeria__imgG2 {
-    display: none; } }
+    display: none; }
+  .header {
+    height: 75vh;
+    width: 100%;
+    background-image: url(../assets/img/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center; } }
 
 /*------novedades-------*/
 @media screen and (max-width: 1231px) {
@@ -383,4 +390,6 @@ body {
   .artistas__main .artistas__section__div {
     justify-content: center;
     justify-items: center;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .nosotros .nosotros__div .nosotros__div--art {
+    padding: 2em 5em; } }
