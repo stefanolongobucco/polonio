@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Domine','Source Sans Pro', sans-serif; }
 
 .content {
   display: grid; }
@@ -109,10 +109,11 @@ body {
   width: 100%; }
   .artistas__main .artistas__section {
     display: grid;
-    width: 100%;
+    width: 90%;
     align-content: space-evenly;
     text-align: center;
     padding: 1em;
+    margin: auto;
     gap: 3em; }
     .artistas__main .artistas__section__div {
       display: grid;
@@ -123,11 +124,13 @@ body {
       .artistas__main .artistas__section__div .artistas__section--art {
         display: flex;
         flex-direction: column;
-        gap: 2em; }
+        gap: 2em;
+        align-items: center; }
       .artistas__main .artistas__section__div .artistas__section--p {
         background-color: #2b2c28;
-        padding: 0.5em;
-        text-align: center; }
+        padding: 4em;
+        text-align: center;
+        border-radius: 20px; }
         .artistas__main .artistas__section__div .artistas__section--p .artistas__div--p {
           color: #a8763e;
           font-size: 1.2em;
@@ -250,7 +253,7 @@ body {
       font-size: 2em; }
     .footer_div .footer__li {
       display: inline-block;
-      padding: 5em 2em; }
+      padding: 5em 3em; }
 
 .main__contacto {
   display: flex;
@@ -384,7 +387,9 @@ body {
 
 @media screen and (max-width: 1050px) {
   .active {
-    display: none; } }
+    display: none; }
+  .artistas__main .artistas__section__div .artistas__section--p {
+    padding: 2em; } }
 
 @media screen and (max-width: 768px) {
   .artistas__main .artistas__section__div {
@@ -393,3 +398,9 @@ body {
     grid-template-columns: 1fr; }
   .nosotros .nosotros__div .nosotros__div--art {
     padding: 2em 5em; } }
+
+@media screen and (max-width: 596px) {
+  .footer_div {
+    padding: 2em 0em; }
+    .footer_div .footer__li {
+      padding: 3em 1em; } }

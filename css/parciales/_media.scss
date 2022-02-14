@@ -127,6 +127,9 @@
      .active{
          display: none;
      }
+     .artistas__main .artistas__section__div .artistas__section--p {    
+        padding: 2em;
+    }
   }
  
   @media screen and (max-width: 768px){
@@ -140,6 +143,18 @@
      .nosotros  .nosotros__div  .nosotros__div--art{    
         padding: 2em 5em;
     }
+   
   }
  
 
+  @media screen and (max-width: 596px){
+    .footer{
+  &_div{
+    padding: 2em 0em;
+
+    
+    .footer__li{
+    padding: 3em 1em;
+    }
+}
+  }}
