@@ -24,6 +24,7 @@
 
 .galeria__imgG{
     @include sizes(15rem,15rem);
+    
 }
 .section__galeria--hijo2 {
     display: grid;
@@ -45,4 +46,10 @@
 
 .galeria__main--imgG{
     @include sizes(20rem,20rem);
+    &:hover {
+    
+        transform: scale(1.5,1.5);
+        transition: .3s;
+    
+        }
 }

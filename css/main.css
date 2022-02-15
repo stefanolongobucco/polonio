@@ -194,6 +194,9 @@ body {
 .galeria__main--imgG {
   height: 20rem;
   width: 20rem; }
+  .galeria__main--imgG:hover {
+    transform: scale(1.5, 1.5);
+    transition: .3s; }
 
 .Novedades {
   display: grid;
